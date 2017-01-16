@@ -8,9 +8,9 @@ set your linux environement variables
 
 on the first time download the source
 by running under bash
-	clone
+     clone
 
 then compile uder bash
-	go
+     go
 
 
