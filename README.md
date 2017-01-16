@@ -7,10 +7,12 @@ set your linux environement variables
 . ./ACTIVATE.sh
 
 on the first time download the source
-by running under bash
-     clone
+by running under bash:
 
-then compile uder bash
-     go
+    clone
+
+then compile under bash:
+
+    go
 
 
