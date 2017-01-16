@@ -1,0 +1,2 @@
+find . -maxdepth 1 -type d | xargs -I {} git -C {} checkout  master
+find . -maxdepth 1 -type d | xargs -I {} git -C {} branch
