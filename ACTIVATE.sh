@@ -1,4 +1,4 @@
-export PFX=/opt/kramer/gstreamer/
+export PFX=/opt/gstreamer/
 export PATH=$PFX/bin:$PATH
 export LD_RUN_PATH=$LD_RUN_PATH:$PFX/lib
 export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:$PFX/lib/pkgconfig
@@ -55,13 +55,4 @@ make -j4 && \
 sudo make install
 }
 
-run()
-{
-GST_DEBUG=3 rtsp_port=8554 rtsp_folder=stream ./rtsp_h264_enc_variable.aac.ovr $1
-}
-
-dbg()
-{
-GST_DEBUG=3 rtsp_port=8554 rtsp_folder=stream kdbg ./bin/gst-variable-rtsp-server
-}
 
